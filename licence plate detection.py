@@ -41,7 +41,7 @@ plate=cv2.CascadeClassifier('licenceplate.xml')
 #plate = cv2.CascadeClassifier('cascade.xml')
 #cap = cv2.VideoCapture('http://191.168.10.229/doc/page/login.asp?_1577432127346')#
 #cap = cv2.VideoCapture('rtsp://admin:12345@192.168.60.24:554')
-cap = cv2.VideoCapture('v1.mp4')
+cap = cv2.VideoCapture('q2.mp4')
 
 if not(os.path.isfile(mainFilename)):
     mwb = openpyxl.Workbook()
